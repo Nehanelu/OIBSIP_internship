@@ -1,0 +1,126 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    background: black;
+    color: white;
+
+}
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.logo{
+    font-size: 45px;
+    color: #ed650b;
+    text-decoration: none;
+    font-weight: 700;
+    pointer-events: none;
+}
+
+.navbar a{
+    font-size: 18px;
+    color:white;
+    text-decoration: none;
+    font-weight: 500;
+margin-left: 35px;
+transition: .3s;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(229, 241, 11);
+    
+}
+
+.About{
+    width: 120%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.active-content h1{
+    color: #ed650b;
+    font-size: 56px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+
+.active-content p{
+    font-size: 16px;
+    padding-right: 7px;
+}
+.btn{
+    display: inline-flex;
+    width: 120px;
+    height: 48px;
+    background: #ed650b;
+    border-radius: 40px;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+    background: #ed650b;
+    z-index: 1;
+}
+.btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+
+z-index: -1;
+border-radius: 40px;
+background-size: 80%;
+
+}
+.SocialMedia a{
+    display: inline-flex;
+justify-content: center;
+    width: 40px;
+    height: 40px;
+  
+    background: transparent;
+    border: 4px solid #ed650b;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 15px 30px 0;
+    box-shadow:#ed650b;
+  
+}
+.SocialMedia a :hover{
+    background-color:#ed650b;
+    color: #ed650b;
+    box-shadow:  20px 10px 40px   #ed650b;
+}
+.SocialMedia a img{
+    height: 40px;
+    width: 39px;
+    border-radius: 50%;
+  }
+  .home-img img{
+   
+
+    margin-top: 5px;
+    margin-left: 500px;
+    max-width: 390px;
+    margin-right: 500px;
+}
+
+
